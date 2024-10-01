@@ -4,8 +4,8 @@ class Solution:
             return 0
         
         my_list = s.strip().split(' ')
-        if my_list:
-            last_word = my_list[-1]
-            return len(last_word)    
+        last_word = my_list[-1]
+        return len(last_word)    
         
+            
         
